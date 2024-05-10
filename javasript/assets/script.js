@@ -7,6 +7,8 @@ REGOLE
 - Utilizza dei console.log() per testare le tue variabili e/o i risultati delle espressioni che stai creando.
 */
 
+console.log("------------- Esercizio 1 ------------");
+
 /* ESERCIZIO 1
     Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
 */
@@ -16,17 +18,23 @@ for (i = 0; i < pets.length; i++) {
   console.log(pets[i]);
 }
 
+console.log("------------- Esercizio 2 ------------");
+
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
 
 console.log(pets.sort());
 
+console.log("------------- Esercizio 3 ------------");
+
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
 console.log(pets.reverse());
+
+console.log("------------- Esercizio 4 ------------");
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
@@ -35,6 +43,8 @@ console.log(pets.reverse());
 let primoElemento = pets.splice(0, 1)[0];
 pets.push(primoElemento);
 console.log(pets);
+
+console.log("------------- Esercizio 5 ------------");
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
@@ -68,6 +78,8 @@ for (i = 0; i < cars.length; i++) {
 
 console.log(cars);
 
+console.log("------------- Esercizio 6 ------------");
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
@@ -85,6 +97,8 @@ cars.push(newObj);
 
 console.log(cars);
 
+console.log("------------- Esercizio 7 ------------");
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
@@ -95,6 +109,8 @@ for (i = 0; i < cars.length; i++) {
 }
 
 console.log(justTrims);
+
+console.log("------------- Esercizio 8 ------------");
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
@@ -108,6 +124,8 @@ for (i = 0; i < cars.length; i++) {
     console.log("Buzz");
   }
 }
+
+console.log("------------- Esercizio 9 ------------");
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
@@ -125,6 +143,8 @@ while (o < numericArray.length) {
   }
   o++;
 }
+
+console.log("------------- Esercizio 10 ------------");
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
