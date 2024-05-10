@@ -76,8 +76,8 @@ h1 {
 }
 
 .main-box {
-    padding-top: 20px;
-
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: white;
     text-align: center;
 }
@@ -111,7 +111,7 @@ h1 {
     aspect-ratio: 0.9;
     margin-left: 1em;
     margin-right: 1em;
-    box-shadow: inset -1px 3px 8px 5px #afafaf73, 2px 5px 16px 0px #afafaf73;
+    box-shadow: inset -1px 3px 8px 5px #8f8e8e73, 2px 5px 16px 0px #8f8e8e73;
 }
 
 
@@ -136,4 +136,3 @@ footer img {
     width: 130px;
     margin: 30px;
 }
-
