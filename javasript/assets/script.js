@@ -60,7 +60,7 @@ const cars = [
   },
 ];
 
-console.log(cars)
+console.log(cars);
 
 for (i = 0; i < cars.length; i++) {
   cars[i].licenseplate = "AF302GN" + i;
@@ -90,31 +90,24 @@ console.log(cars);
 */
 const justTrims = [];
 
-
-for(i = 0 ; i < cars.length ; i++){
-  justTrims.push(cars[i].trims[0])
+for (i = 0; i < cars.length; i++) {
+  justTrims.push(cars[i].trims[0]);
 }
 
-console.log(justTrims)
-
-
+console.log(justTrims);
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
-
-for(i = 0 ; i < cars.length ; i++){
-if(cars[i].color.charAt(0) === 'b'){
-  console.log('Fizz')
-}else{
-  console.log('Buzz')
+for (i = 0; i < cars.length; i++) {
+  if (cars[i].color.charAt(0) === "b") {
+    console.log("Fizz");
+  } else {
+    console.log("Buzz");
+  }
 }
-
-}
-
-
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
@@ -122,7 +115,6 @@ if(cars[i].color.charAt(0) === 'b'){
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
-
 
 let o = 0;
 
@@ -134,7 +126,6 @@ while (o < numericArray.length) {
   o++;
 }
 
-
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
@@ -142,30 +133,72 @@ while (o < numericArray.length) {
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
 
-
 let newCharacters = [];
 
-for( let i = 0 ; i < charactersArray.length ; i++){
-
-  switch (charactersArray[i].toLowerCase()) {
-
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
     case "a":
-      newCharacters.push(1)
+      newCharacters.push(1);
       break;
     case "b":
-      newCharacters.push(2)
+      newCharacters.push(2);
       break;
     case "c":
-      newCharacters.push(3)
+      newCharacters.push(3);
       break;
-    case "d"
-
-
-
-
-
-
+    case "d":
+      newCharacters.push(4);
+      break;
+    case "e":
+      newCharacters.push(5);
+      break;
+    case "f":
+      newCharacters.push(6);
+    case "g":
+      newCharacters.push(7);
+    case "h":
+      newCharacters.push(8);
+      break;
+    case "i":
+      newCharacters.push(9);
+      break;
+    case "l":
+      newCharacters.push(10);
+      break;
+    case "m":
+      newCharacters.push(11);
+      break;
+    case "n":
+      newCharacters.push(12);
+      break;
+    case "o":
+      newCharacters.push(13);
+      break;
+    case "p":
+      newCharacters.push(14);
+      break;
+    case "q":
+      newCharacters.push(15);
+      break;
+    case "r":
+      newCharacters.push(16);
+      break;
+    case "s":
+      newCharacters.push(17);
+      break;
+    case "t":
+      newCharacters.push(18);
+      break;
+    case "u":
+      newCharacters.push(19);
+      break;
+    case "v":
+      newCharacters.push(20);
+      break;
+    case "z":
+      newCharacters.push(21);
+      break;
   }
 
-console.log(newCharacters)
+  console.log(newCharacters);
 }
