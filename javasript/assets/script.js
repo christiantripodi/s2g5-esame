@@ -67,8 +67,11 @@ const cars = [
   },
 ]
 
+for(i = 0  ; i < cars.length ; i++){
+  cars[i].licenseplate = 'AF302GN' + i
+}
 
-
+console.log(cars)
 
 
 /* ESERCIZIO 6
