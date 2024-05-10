@@ -13,3 +13,117 @@ header img {
     width: 150px;
     padding: 10px 30px;
 }
+
+.blu-chiaro {
+    background-color: #364759;
+    padding: 15px 30px;
+}
+
+.menu-nav,
+#shop-GiftCards a {
+    padding-right: 20px;
+    color: #ebe7ed;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* main */
+
+main {
+    padding: 30px 30px;
+    background-color: #e9edee;
+}
+
+main,
+footer {
+    text-align: center;
+}
+
+#shop-GiftCards {
+    background-color: #f56600;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+
+#shop-GiftCards a {
+    padding-right: 0px;
+}
+
+#shop-GiftCards a,
+h1 {
+    text-transform: capitalize;
+}
+
+#background-img {
+    background-image: url(../images/bg-image.png);
+    background-size: contain;
+    font-weight: bold;
+    color: #ebe7ed;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+#background-img h1 {
+    font-size: 1.8rem;
+    padding-top: 20px;
+}
+
+#background-img p {
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+.main-box {
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+}
+
+#text-left {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.display-inline,
+.box p,
+.img-box {
+    display: inline;
+}
+
+.link {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4b868b;
+    padding-left: 20px;
+}
+
+.img-box img {
+    width: 20%;
+    border-radius: 20px;
+    aspect-ratio: 0.9;
+    margin-left: 1em;
+    margin-right: 1em;
+    box-shadow: inset -1px 3px 8px 5px #afafaf73, 2px 5px 16px 0px #afafaf73;
+}
+
+
+.img-grande {
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+/* footer */
+
+footer a {
+    color: #e9edee;
+    font-size: 1rem;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+footer img {
+    width: 150px;
+    padding: 60px;
+}
