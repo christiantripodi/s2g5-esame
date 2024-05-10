@@ -60,6 +60,8 @@ const cars = [
   },
 ];
 
+console.log(cars)
+
 for (i = 0; i < cars.length; i++) {
   cars[i].licenseplate = "AF302GN" + i;
 }
@@ -121,9 +123,49 @@ const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
 
+
+let o = 0;
+
+while (o < numericArray.length) {
+  console.log(numericArray[o]);
+  if (numericArray[o] === 32) {
+    break;
+  }
+  o++;
+}
+
+
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+
+let newCharacters = [];
+
+for( let i = 0 ; i < charactersArray.length ; i++){
+
+  switch (charactersArray[i].toLowerCase()) {
+
+    case "a":
+      newCharacters.push(1)
+      break;
+    case "b":
+      newCharacters.push(2)
+      break;
+    case "c":
+      newCharacters.push(3)
+      break;
+    case "d"
+
+
+
+
+
+
+  }
+
+console.log(newCharacters)
+}
